@@ -252,12 +252,9 @@ with st.expander("Ver lista completa de precios"):
 precio_lineal = 0.0
 if agregar_canto:
 
-    porc = 0.0
-if agregar_incremento:
 
 # Botón de cálculo
-if st.button("Calcular presupuesto"):
-    area = alto * ancho
+        area = alto * ancho
     st.write(f"Área original: **{area:.4f} m²**")
 
     # Ajuste de área a múltiplos
